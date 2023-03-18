@@ -1,0 +1,7 @@
+{
+    "name": "kk-minecraft-chat-relay",
+    "scripts": {
+        "install": "npm install discord.js; npm install ws; npm install uuid; npm run start",
+        "start": "node bot.js"
+    }
+}
