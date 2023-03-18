@@ -2,6 +2,6 @@ orbs:
   node: circleci/node@5.1.0
   workflows:
     example-workflow:
-      jobs:
+      scripts:
         - node/run:
             npm-run: install 
