@@ -27,8 +27,8 @@ jobs:
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
       - run:
-          name: Run Install and Start Bot
-          command: npm install
+          name: Run Install and Start
+          command: npm run install
 
 workflows:
   # Below is the definition of your workflow.
